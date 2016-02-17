@@ -12,15 +12,19 @@
 
 用到的工具下载（有windows版本和mac版本），https://desktop.github.com/
 
-1、首先，fork需要开发的工程, 每个人在自己的项目中进行开发, 并不直接修改目标项目
+1、首先，fork需要开发的项目, 每个人在自己的名字下的项目中进行开发, 并不直接修改目标项目
 
-![](image/1.png)
+![](image/fork.png)
 
-2、现在开始（新成员接入，开发者1），1号开发者开始开发一个新功能task。新建特性分支，feature/task（注意，这个分支是从master上切出来的）
+github desktop里把自己名字下的项目clone下来
+
+![](image/clone.png)
+
+2、现在开始（新成员接入，开发者1），1号开发者开始开发一个新功能task。新建特性分支，feature/task（注意，这个分支是从自己的master上切出来的, 事先和主项目的master同步）
 
 ![](image/2.png)
 
-3、task特性开发完成后，1号开发者开始提交到master主分支（合代码），如下图，先commit代码，然后publish，最后提交pull-request请求(此处publish相当于push操作)
+3、task特性开发完成后，为了将代码合并到主项目，如下图，先commit代码，然后publish，最后提交pull-request请求(此处publish相当于push操作)
 
 ![](image/3.png)
 
